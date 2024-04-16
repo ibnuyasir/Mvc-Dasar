@@ -1,0 +1,30 @@
+#message_empty {
+    width: 150px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gainsboro;
+}
+#tambah {
+    width: 120px;
+    height: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gainsboro;
+    text-align: center;
+    color: #333;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+#no1, #no2, #no3 {
+    background-color: #212121;
+    color: #fff;
+}
+#fieldset {
+    border: 1px solid #000;
+    height: auto;
+    width: auto;
+}

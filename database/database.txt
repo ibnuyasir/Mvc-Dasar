@@ -1,0 +1,63 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 16 Apr 2024 pada 10.13
+-- Versi server: 10.4.27-MariaDB
+-- Versi PHP: 7.4.33
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `shell`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `tables`
+--
+
+CREATE TABLE `tables` (
+  `username` varchar(255) NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `tables`
+--
+
+INSERT INTO `tables` (`username`, `email`, `password`) VALUES
+('Calvin', 'as891276@gmail.com', 'JSYHH77a6'),
+('Kurt', 'justCallMeKurt53_8712@gmail.co.za', 'DontGive Up78623'),
+('Orang', 'ibnu_89_yasir66212@gmail.com', 'AkuSeorangKroco81738613'),
+('Pat', 'patterbtat33@gmail.com', 'PatMe6565456'),
+('Shawn', 'shdwbladeat1213@gmail.com', '881361681731'),
+('Tim', 'timothyatfds311@gmail.com', 'justmeaiamTimothy1878212'),
+('Toby', 'adminj87232113zt@gmail.com', '8768767867sa'),
+('Wally', 'gatrsfrwc76675@gmail.com', 'JustWallyertz76211');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indeks untuk tabel `tables`
+--
+ALTER TABLE `tables`
+  ADD PRIMARY KEY (`username`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
